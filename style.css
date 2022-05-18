@@ -13,5 +13,5 @@ section {
 }
 #gallery .row > * {
   padding: 0;
-  justify-content: center;
+  margin: 0;
 }
