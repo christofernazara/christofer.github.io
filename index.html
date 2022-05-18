@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portofolio | Christofer Nazara</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body id="home">
     <!--Navbar-->
@@ -38,9 +39,9 @@
     <!--Akhir Navbar-->
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/fotoku.jpeg" alt="Christofer" width="160" height="180" class="rounded-circle img-thumbnail" />
+      <img src="img/fotoku.jpeg" alt="Christofer" width="160" height="180" class="rounded-circle img-thumbnail" d />
       <h1 class="display-4">Christofer Nazara</h1>
-      <p class="lead">Quality Assurance | Bussines</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -52,17 +53,17 @@
     <!-- Akhir Jumbotron -->
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center text-center">
-          <div class="col-md-4 fs-5">
+          <div class="col-md-4 fs-5" data-aos="fade-right" data-aos-duration="1000">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur voluptates aperiam a rerum eligendi eveniet reiciendis veritatis voluptatibus esse dolor.</p>
           </div>
-          <div class="col-md-4 fs-5">
+          <div class="col-md-4 fs-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quam porro dolorum eos vel. Sint sapiente beatae at molestiae perferendis nobis, non veniam quod alias?</p>
           </div>
         </div>
@@ -86,7 +87,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="projects/1.jpg" class="card-img-top" alt="projects1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -94,7 +95,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="projects/2.jpg" class="card-img-top" alt="projects1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -102,7 +103,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="projects/5.jpg" class="card-img-top" alt="projects1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -110,7 +111,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="projects/4.jpg" class="card-img-top" alt="projects1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -118,7 +119,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img src="projects/3.jpg" class="card-img-top" alt="projects1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -136,6 +137,71 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+    <!-- Gallery-->
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>Gallery</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar1.jpg" alt="gambar1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar2.jpg" alt="gambar2" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar3.jpg" alt="gambar3" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar4.jpg" alt="gambar4" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar5.jpg" alt="gambar5" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar6.jpg" alt="gambar6" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar7.jpg" alt="gambar7" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar8.png" alt="gambar8" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar9.jpg" alt="gambar9" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/thumbnail/gambar10.jpg" alt="gambar10" class="img-fluid gallery-img" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery-->
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -213,6 +279,28 @@
           })
           .catch((error) => console.error('Error!', error.message));
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 500;
+      });
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 1.5, delay: 1.5, text: 'Quality Assurance | Bussines' });
+      gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0, ease: 'bounce' });
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
     </script>
   </body>
 </html>
