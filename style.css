@@ -30,7 +30,7 @@ section {
   font-weight: bold;
   font-style: italic;
   top: 30px;
-  left: 50%;
+  left: 10%;
   transform: translate(50%, 0);
   opacity: 0;
   transition: 0.5s;
@@ -39,7 +39,7 @@ section {
   opacity: 0.2;
 }
 .keyboard-box::after {
-  content: 'KEYBOARD';
+  content: 'OUTFIT';
   position: absolute;
   color: #ffff;
   font-size: 4.1em;
